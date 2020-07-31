@@ -35,9 +35,9 @@ namespace HairSalon.Controllers
       return RedirectToAction("Index");
     }
 
-    public ActionResult Details(int id)
-    {
+    // public ActionResult Details(int id)
+    // {
       
-    }
+    // }
   }
 }
