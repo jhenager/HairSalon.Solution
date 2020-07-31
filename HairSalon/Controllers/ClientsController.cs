@@ -43,7 +43,7 @@ namespace HairSalon.Controllers
     public ActionResult Details(int id)
     {
       Client thisClient = _db.Clients.FirstOrDefault(clients => clients.ClientId == id);
-      return View(thisItem);
+      return View(thisClient);
     }
 
   }
