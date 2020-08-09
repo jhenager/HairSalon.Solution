@@ -47,11 +47,17 @@ dotnet run
 ## **Setting up the database**
 <br>
 Next we will need to setup our MySql database for the application to work.
-Open MySql Workbench and select "Create a new Sql Tab for Executing Queries" at the very top left of the page. Then paste this information onto the page:
+<br>
+One method is to directly import the 'james_henager.sql' file included in the repo to MySQL workbench.
+<br>
+The other option is to open MySql Workbench and select "Create a new Sql Tab for Executing Queries" at the very top left of the page. Then paste this information onto the page:
 <br>
 
 ```
 CREATE DATABASE `james_henager` /*!40100 DEFAULT CHARACTER SET utf8mb4 COLLATE utf8mb4_0900_ai_ci */;
+
+USE DATABASE 'james_henager';
+
 CREATE TABLE `clients` (
   `ClientId` int(11) NOT NULL AUTO_INCREMENT,
   `ClientName` varchar(255) NOT NULL,
