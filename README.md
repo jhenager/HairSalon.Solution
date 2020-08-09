@@ -118,7 +118,7 @@ git commit -m "protect data"
 ```
 
 
-## ** QUESTIONS AND CONCERNS**
+## **QUESTIONS AND CONCERNS**
 
 _Questions, comments and concerns can be directed to James Henager (jameschenager@gmail.com)_
 
