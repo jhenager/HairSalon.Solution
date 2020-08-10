@@ -56,7 +56,7 @@ The other option is to open MySql Workbench and select "Create a new Sql Tab for
 ```
 CREATE DATABASE `james_henager` /*!40100 DEFAULT CHARACTER SET utf8mb4 COLLATE utf8mb4_0900_ai_ci */;
 
-USE DATABASE 'james_henager';
+USE 'james_henager';
 
 CREATE TABLE `clients` (
   `ClientId` int(11) NOT NULL AUTO_INCREMENT,
